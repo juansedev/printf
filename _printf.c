@@ -24,7 +24,6 @@ int _printf(const char *format, ...)
 	{
 		if (format[i] == '%')
 		{
-			
 			p = select_fun_fmt(format[i + 1]);
 			if (p)
 			{
@@ -33,7 +32,7 @@ int _printf(const char *format, ...)
 			{
 				if (format[i + 1] == '%')
 					len_print += _putchar(format[i + 1]);
-				else 
+				else
 				{
 					len_print += _putchar(format[i]);
 					len_print += _putchar(format[i + 1]);
