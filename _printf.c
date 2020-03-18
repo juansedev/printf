@@ -24,21 +24,20 @@ int _printf(const char *format, ...)
 	{
 		if (format[i] == '%')
 		{
-			p = select_fun_fmt(format[i]);
+			p = select_fun_fmt(format[i + 1]);
 			if (p)
 			{
 				len_print += p(list);
-				i++;
 			}
-			
+			i++;
 		} else
 		{
 			_putchar(format[i]);
 			len_print++;
-			i++;
 		}
 	}
 	va_end(list);
 	return (len_print);
 }
+
 

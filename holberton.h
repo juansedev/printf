@@ -27,6 +27,7 @@ typedef struct fmt
 /* Define prototypes */
 /* Functions of generic use.*/
 int _putchar(char c);
+int _putstring(char *c, int size);
 int _strlen(char *s);
 
 /* This functions allows to select the function to format the input.*/
