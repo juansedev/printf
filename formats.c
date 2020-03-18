@@ -2,8 +2,6 @@
 /**
  * print_char - Prints character
  * @list: list of arguments
- * @buffer: buffer
- * @size_act: actual lenght of the buffer
  * Return: Will return 1.
  */
 int print_char(va_list list)
@@ -17,8 +15,6 @@ int print_char(va_list list)
 /**
  * print_string - Prints strings
  * @list: list of arguments
- * @buffer: buffer
- * @size_act: actual lenght of the buffer
  * Return: Will return leght of string stored.
  */
 int print_string(va_list list)
@@ -40,9 +36,7 @@ int print_string(va_list list)
 }
 /**
  * print_percent - Prints strings
- * @fmt_act: posicition actual of format
- * @buffer: buffer
- * @size_act: actual lenght of the buffer
+ * @list: list of arguments
  * Return: Will return 1.
  */
 int print_percent(va_list list)

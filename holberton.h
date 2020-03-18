@@ -44,5 +44,5 @@ int print_string(va_list list);
 int print_percent(va_list list);
 int print_int(va_list list);
 int print_double(va_list list);
-/void print_percent(va_list list, char *buf);/
+//void print_percent(va_list list, char *buf)
 #endif
