@@ -31,8 +31,13 @@ int _printf(const char *format, ...)
 				len_print += p(list);
 			} else
 			{
-				len_print += _putchar(format[i]);
-				len_print += _putchar(format[i + 1]);
+				if (format[i + 1] == '%')
+					len_print += _putchar(format[i + 1]);
+				else 
+				{
+					len_print += _putchar(format[i]);
+					len_print += _putchar(format[i + 1]);
+				}
 			}
 			i++;
 		} else

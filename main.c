@@ -22,65 +22,24 @@
  */
 int main(void)
 {
-        int len;
-        int len2;
-        unsigned int ui;
-        void *addr;
-        char *str = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do\
- eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam\
-, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\
- Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fug\
-iat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qu\
-i officia deserunt mollit anim id est laborum.\nCurabitur pretium tincidunt lacus. N\
-ulla gravida orci a odio. Nullam varius, turpis et commodo pharetra, est eros bibend\
-um elit, nec luctus magna felis sollicitudin mauris. Integer in mauris eu nibh euism\
-od gravida. Duis ac tellus et risus vulputate vehicula. Donec lobortis risus a elit.\
- Etiam tempor. Ut ullamcorper, ligula eu tempor congue, eros est euismod turpis, id \
-tincidunt sapien risus a quam. Maecenas fermentum consequat mi. Donec fermentum. Pel\
-lentesque malesuada nulla a mi. Duis sapien sem, aliquet nec, commodo eget, consequa\
-t quis, neque. Aliquam faucibus, elit ut dictum aliquet, felis nisl adipiscing sapie\
-n, sed malesuada diam lacus eget erat. Cras mollis scelerisque nunc. Nullam arcu. Al\
-iquam consequat. Curabitur augue lorem, dapibus quis, laoreet et, pretium ac, nisi. \
-Aenean magna nisl, mollis quis, molestie eu, feugiat in, orci. In hac habitasse plat\
-ea dictumst.\n";
-
-        _printf("adsda%ccsgd%sasda%ysd\n",'H',"olberton");
-         printf("adsda%ccsgd%sasda%ysd\n",'H',"olberton");
-        /*len = _printf("Imp: Let's try to printf a simple sentence.\n");
-        len2 = printf("Ori: Let's try to printf a simple sentence.\n");
-        ui = (unsigned int)INT_MAX + 1024;
-        addr = (void *)0x7ffe637541f0;
-        //len = _printf("Length1:[%d, %i]\n", len, len);
-        //len2 = printf("Length2:[%d, %i]\n", len2, len2);
-        printf("Len: %d\tLen2: %d\n", len,len2);
-        len = _printf("Character:[%c]\n", 'H');
-        len2 = printf("Character:[%c]\n", 'H');
-        printf("Len: %d\tLen2: %d\n", len,len2);
-        len = _printf("String:[%s]\n", "I am a string !");
-        len2 = printf("String:[%s]\n", "I am a string !");
-        printf("Len: %d\tLen2: %d\n", len,len2);
-        len = _printf("Percent:[%%]\n");
-        len2 = printf("Percent:[%%]\n");
-        printf("Len: %d\tLen2: %d\n", len,len2);
-        printf("\ntesting null char =================\n");
-        len = _printf("o%c", '\0');
-        len2 = printf("t%c", '\0');
-        printf("Len: %d\tLen2: %d\n", len,len2);
-        printf("\nexclamation test ====== =============\n");
-        len = _printf("o%!\n");
-        len2 = printf("t%!\n");
-        //printf("Len: %d \tLen2: %d\n", len,len2);
-        slen = _printf("%%%%%%%%%\n");
-        len2 = printf("%%%%%%%%%\n");
-        printf("Len: %d\tLen2: %d\n", len,len2);
-        len = _printf("Va algo %s y ya\n", "Simplee", 1, 2, 3, 4);
-        len2 = printf("Va algo %s y ya\n", "Simplee", 1, 2, 3, 4);
-        printf("Len: %d\tLen2: %d\n", len,len2);
-        len = _printf("adsda%ccsgd%sasda%ysd\n",'H',"olberton");
-        len2 = printf("adsda%ccsgd%sasda%ysd\n",'H',"olberton");
-        printf("Len: %d\tLen2: %d\n", len,len2);
-        len = _printf("%s\n", NULL);
-        len2 = printf("%s\n", NULL);
-        printf("Len: %d\tLen2: %d\n", len,len2);*/
+        char *str ="We o noeGC,i omlyde rpoesn,cmiain sebyadlnig h oealotos lo o oso hspoesa nitreit tg.Freape h coto asntt u h ikr hnteotu ossso betflsotu yteasmlr Ohrotosaepse nt n tg fpoesn.Sm pin oto h rpoesradohr h oplrisl.Ytohrotoscnrlteasmlradlne;ms fteeaentdcmne ee ic o aeyne oueayo hmMs ftecmadln pin htyucnuewt C r sflfrCporm;we noto sol sflwt nte agae(sal  +) h xlnto ass xlcty ftedsrpinfrapriua pinde o eto  orelnug,yucnueta pinwt l upre agae. h c rga cet pin n ienmsa prns ayotoshv ut-etrnms hrfr utpesnl-etrotosmyntb rue:-vi eydfeetfo d-. o a i pin n te ruet.Frtems at h re o s os' atr re osmte hnyuuesvrlotoso h aekn;freape fyuseiy- oeta ne h ietre r erhdi h re pcfe.As,tepaeeto h loto ssgiiat Mn pin aeln ae trigwt fo ih---o xml,-mv-opivrat,-fra n oo.Ms fteehv ohpstv n eaiefrs h eaiefr f-fowudb fofo hsmna ouet nyoeo hs w om,wihvroei o h eal.When you invoke GCC , it normally does preprocessing, compilation, assembly and linking. The overall options allow you to stop this process at an intermediate stage. For example, th. \n\n\n";
+        //_printf("Let's print a simple sentence.\n");
+        //_printf("%c\n", 'S');
+        //_printf("A char inside a sentence: %c. Did it work?\n", 'F');
+        //_printf("Let'see if the cast is correctly done: %c. Did it work?\n", 48);
+        //_printf("%s", "This sentence is retrieved from va_args!\n");
+        //_printf("Complete the sentence: You %s nothing, Jon Snow.\n", "know");
+        //_printf("Complete the sentence: You %s nothing, Jon Snow.\n", (char *)0);
+        //_printf("%c%cth %s%s a%cg%s: Y%sou %s no%ching%s Snow.%c", 'W', 'i', "some ", "more", 'r', "s", "", "know", 't', ", Jon", '\n');
+        //_printf("%%\n");
+        //_printf("Should print a single percent sign: %%\n");
+        _printf("%s%c%c%c%s%%%s%c", "Loading ", '.', '.', '.', " 99", " Please wait", '\n');
+        //_printf("css%ccs%scscscs\n", 'T', "Test");
+        _printf(str);
+        _printf("man gcc:\n%s", str);
+        //_printf("%c\n", '\0');
+        //_printf("%\n");
+        //_printf("%!\n");
+        //_printf("%K\n");
         return (0);
 }
