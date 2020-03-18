@@ -34,14 +34,3 @@ int print_string(va_list list)
 	}
 	return (char_add);
 }
-/**
- * print_percent - Prints strings
- * @list: list of arguments
- * Return: Will return 1.
- */
-int print_percent(va_list list)
-{
-	(void)list++;
-	_putchar('%');
-	return (1);
-}
