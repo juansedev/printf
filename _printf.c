@@ -31,8 +31,8 @@ int _printf(const char *format, ...)
 				len_print += p(list);
 			} else
 			{
-				_putchar(format[i]);
-				_putchar(format[i + 1]);
+				len_print += _putchar(format[i]);
+				len_print += _putchar(format[i + 1]);
 			}
 			i++;
 		} else
