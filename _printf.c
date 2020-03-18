@@ -14,7 +14,7 @@ int _printf(const char *format, ...)
 	int len_print = 0;
 	int i;
 	va_list list;
-	
+
 	if ((!format) || (format[0] == '%' && format[1] == '\0'))
 	{
 		return (-1);
