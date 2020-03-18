@@ -1,0 +1,39 @@
+.TH _PRINTF 3 "17 Mar 2020" "Holberton School Cohort 11 1.0" "_printf man page"
+.SH NAME
+_printf
+- Re-creation of the original printf function presented in the standard library.
+.SH SYNOPSIS
+.DS
+To use this function the following headers are needed.
+\fB#include "holberton.h"\fP
+.PP
+\fBint _printf(const char *format, ...);\fP
+.DE
+.SH DESCRIPTION
+The _printf() function produce output according to a format as described below.
+The function write output to stdout, the standard output stream.
+.PP
+.RS -4
+\fBReturn value\fP
+.RE
+Successful return, this function return the number of characters printed (excluding the null byte used to end output to strings).
+.PP
+Error, returns  a negative value is returned.
+.SH USAGE
+To use _printf you have to use the following key characters preceeded by % symbol.
+.RS 3
+%c: To be used to print characters
+.RS 0
+%s: To be used to print strings
+.RS 0
+%d: To print integers of max and min size of an int type
+.RS 0
+%i: To print integers of max and min size of an int type
+.RS 0
+%b: To print a number in binary form
+.SH SEE ALSO
+.I printf(3)
+.SH BUGS
+No known bugs.
+.SH AUTHOR
+Juan Llano & Luis Sanjuan at Holberton School
