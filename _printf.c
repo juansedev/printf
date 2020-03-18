@@ -24,10 +24,16 @@ int _printf(const char *format, ...)
 	{
 		if (format[i] == '%')
 		{
+			
 			p = select_fun_fmt(format[i + 1]);
 			if (p)
 			{
 				len_print += p(list);
+			} else
+			{
+				_putchar(format[i]);
+				_putchar(format[i + 1]);
+				i++;
 			}
 			i++;
 		} else

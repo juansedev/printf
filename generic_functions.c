@@ -14,7 +14,6 @@ int (*select_fun_fmt(const char f_type))()
 		{"s", print_string},
 		{"d", print_string},
 		{"i", print_string},
-		{"%", print_percent},
 		{NULL, NULL}
 	};
 	int i = 0;
