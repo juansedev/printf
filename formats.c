@@ -95,6 +95,6 @@ int print_int(va_list list)
 		lenght--;
 	}
 
-	return (thounsand + 1)
+	return (thounsand + 1);
 }
 
