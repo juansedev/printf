@@ -96,6 +96,5 @@ int print_int(va_list list)
 	}
 
 	return (thounsand + 1)
-
 }
 

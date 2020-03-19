@@ -12,8 +12,8 @@ int (*select_fun_fmt(const char f_type))()
 	identifier_fmt id_fmt[] = {
 		{"c", print_char},
 		{"s", print_string},
-		{"d", print_string},
-		{"i", print_string},
+		{"d", print_int},
+		{"i", print_int},
 		{NULL, NULL}
 	};
 	int i = 0;
